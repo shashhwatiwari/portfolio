@@ -210,7 +210,7 @@ const Hero = () => (
           <div className="relative">
             <div className="absolute -inset-4 bg-primary/10 rounded-full blur-2xl"></div>
             <img 
-              src="./profile.png" 
+              src={`${import.meta.env.BASE_URL}profile.png`} 
               alt="Shashwat Tiwari" 
               className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-full shadow-2xl border-4 border-white relative z-10 bg-surface-low"
               referrerPolicy="no-referrer"
@@ -260,7 +260,7 @@ const Experience = () => (
           <div className="relative z-10">
             <div className="h-12 mb-8 flex items-center">
               <img 
-                src="./bain-logo.png" 
+                src={`${import.meta.env.BASE_URL}bain-logo.png`} 
                 alt="Bain & Company" 
                 className="h-full object-contain"
                 referrerPolicy="no-referrer"
@@ -302,7 +302,7 @@ const Experience = () => (
           <div className="relative z-10">
             <div className="h-12 mb-8 flex items-center">
                <img 
-                src="./aftershoot-logo.png" 
+                src={`${import.meta.env.BASE_URL}aftershoot-logo.png`} 
                 alt="Aftershoot" 
                 className="h-full object-contain"
                 referrerPolicy="no-referrer"
@@ -362,7 +362,7 @@ const Education = () => (
             className="flex gap-8 items-start p-8 rounded-xl bg-surface-low border border-on-surface/5"
           >
             <img 
-              src="./northeastern-logo.png" 
+              src={`${import.meta.env.BASE_URL}NEU.png`}
               alt="Northeastern University" 
               className="w-20 h-20 object-contain"
               referrerPolicy="no-referrer"
@@ -381,7 +381,7 @@ const Education = () => (
             className="flex gap-8 items-start p-8 rounded-xl bg-surface-low border border-on-surface/5"
           >
             <img 
-              src="./sn-logo.png" 
+              src={`${import.meta.env.BASE_URL}sn-logo.png`}
               alt="Shiv Nadar University" 
               className="w-20 h-20 object-contain"
               referrerPolicy="no-referrer"
