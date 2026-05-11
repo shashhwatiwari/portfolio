@@ -212,7 +212,7 @@ const Hero = () => (
             <img 
               src={`${import.meta.env.BASE_URL}profile.png`} 
               alt="Shashwat Tiwari" 
-              className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover object-[center_20%] rounded-full shadow-2xl relative z-10"
+              className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 object-cover object-[center_22%] rounded-full shadow-2xl relative z-10"
               referrerPolicy="no-referrer"
               onError={(e) => {
                 // Fallback if image is not found
@@ -304,7 +304,7 @@ const Experience = () => (
                <img 
                 src={`${import.meta.env.BASE_URL}aftershoot-logo.png`} 
                 alt="Aftershoot" 
-                className="h-10 w-auto object-contain pb-2"
+                className="h-16 w-auto object-contain pb-2"
                 referrerPolicy="no-referrer"
               />
             </div>
