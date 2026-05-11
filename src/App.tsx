@@ -192,7 +192,7 @@ const Hero = () => (
             <p className="text-lg md:text-xl font-medium text-primary/80">MS CS @ Northeastern University</p>
           </div>
           <p className="text-xl md:text-2xl text-on-surface-variant leading-relaxed max-w-2xl">
-            I bridge the gap between complex data ecosystems and high-impact digital experiences. Currently specializing in Computer Science with a focus on scalable systems and editorial precision.
+            I like solving messy problems with clean code and clear data. Whether it's building full-stack applications, automating data pipelines, or turning raw numbers into decisions — I care about making things that work and actually get used. I strive to bring curiosity, persistence, and a fresh perspective to every problem I encounter. Previously at Bain & Company and Aftershoot.
           </p>
           <div className="mt-12 flex items-center gap-8">
             <div className="flex flex-col">
